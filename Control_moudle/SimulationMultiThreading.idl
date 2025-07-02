@@ -1,0 +1,9 @@
+namespace ControlSystem
+{
+	[bindable]
+	[default_interface]
+	runtimeclass SimulationMultiThreading
+	{
+		SimulationMultiThreading();
+	}
+}

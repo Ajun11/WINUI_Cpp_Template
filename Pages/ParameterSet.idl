@@ -1,0 +1,8 @@
+namespace ControlSystem
+{
+    [default_interface]
+    runtimeclass ParameterSet : Microsoft.UI.Xaml.Controls.Page
+    {
+        ParameterSet();
+    }
+}

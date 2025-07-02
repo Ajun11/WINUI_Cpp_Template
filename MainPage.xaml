@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="ControlSystem.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ControlSystem"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <!-- Header不设置-->
+    <NavigationView x:Name="nvsample1" 
+                    Height="Auto" 
+                    PaneDisplayMode="Left"
+                    IsTabStop="False" 
+                    ItemInvoked="nvsample1_ItemInvoked"
+                    Loaded="nvsample1_Loaded"
+                    IsBackButtonVisible="Collapsed"
+                    IsSettingsVisible="True">
+        <NavigationView.MenuItems>
+            <!-- Tag 一定要：项目名.(page的名字)，例如ControlSystem.Page1,ControlSystem是项目名，Page-->
+            <NavigationViewItem Content="Home Page" Tag="ControlSystem.Page1" Icon="Home"/>
+            <NavigationViewItem Content="Page1" Tag="ControlSystem.Page2" Icon="Camera"/>
+            <NavigationViewItem Content="Page2" Tag="ControlSystem.Page3" Icon="Flag"/>
+            <NavigationViewItem Content="Page3" Tag="ControlSystem.Page4" Icon="Download" />
+        </NavigationView.MenuItems>
+        <Frame Margin="0,0,0,0" x:Name="contentFrame1" />
+    </NavigationView>
+</Page>

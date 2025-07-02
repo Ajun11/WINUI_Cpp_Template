@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainWindow.xaml" />
+    <Page Include="MainPage.xaml" />
+    <Page Include="Pages\Page1.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="Pages\Page2.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="Pages\Page3.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="Pages\SettingsPage.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="Pages\ParameterSet.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="Pages\Page4.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="MainWindow.idl" />
+    <Midl Include="Control_moudle\SimulationMultiThreading.idl">
+      <Filter>Control_Moudle</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="Control_moudle\Simulation.cpp">
+      <Filter>Control_Moudle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Control_moudle\Simulation.h">
+      <Filter>Control_Moudle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\InnerIcons\icons8-file-folder.gif">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\icons8-theme.gif">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\icons8-theme-50.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\icons8-about-64.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\icons8-pink-cute-folder-100.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\GalleryHeaderImage.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\Background.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\parameter_set.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\real_time_simulation.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\simulation.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\navigation_simu.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\navigation_simu_real_time.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MiddleTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MiddleTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MiddleTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MiddleTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MiddleTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.altform-unplated_targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.altform-unplated_targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.altform-unplated_targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.altform-unplated_targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.altform-unplated_targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.altform-lightunplated_targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.altform-lightunplated_targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.altform-lightunplated_targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.altform-lightunplated_targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppIcon.altform-lightunplated_targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BagBadge.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BagBadge.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BagBadge.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BagBadge.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BagBadge.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\clock.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\gap.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\parameter.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\save.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\velocity.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\X.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\Y.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\Z.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\3d.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\friction.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\slow.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\motor.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\rotor.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\github-sign.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\pumpkin1.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\pumpkin2.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\pumpkin3.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\pumpkin4.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+    <Image Include="Assets\InnerIcons\theme.png">
+      <Filter>Assets\InnerIcons</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{87debff9-2eef-41f6-ba60-2a4b363669d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pages">
+      <UniqueIdentifier>{0f5438db-bd56-4d90-b353-9872a0615c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\InnerIcons">
+      <UniqueIdentifier>{e38b5a42-7b01-4d3b-883c-da496b7c0201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control_Moudle">
+      <UniqueIdentifier>{8499d21d-9aa0-4c27-aca7-c66aff8e00c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
+  </ItemGroup>
+</Project>
