@@ -4,3 +4,7 @@
 
 :fireworks: Todo: Please note that I'm currently occupied with some recent commitments, so you can first check out this video to understand the basic implementation. I will definitely provide more detailed documentation and instructions in the future. If you have any questions, feel free to leave them in the Issues section - I'll be happy to share everything I know.
 
+
+
+https://github.com/user-attachments/assets/507f3daf-9019-4eeb-981c-4f6950d03f91
+
